@@ -8,12 +8,12 @@ Tool to run models - CPN Tools, http://cpntools.org
 List of models
 --------------
 
-Reenterable Model of Provider Backbone Bridge
-Reenterable Model of Rectangular Communication Grid with Cut-through Nodes
-Reenterable Model of Rectangular Communication Grid with  Store-and-forward Nodes
+Reenterable Model of Provider Backbone Bridge  
+Reenterable Model of Rectangular Communication Grid with Cut-through Nodes  
+Reenterable Model of Rectangular Communication Grid with  Store-and-forward Nodes  
 
-Rectangular Grid with Cut-through Switching Nodes
-Rectangular grid under disguised traffic attack
+Rectangular Grid with Cut-through Switching Nodes  
+Rectangular grid under disguised traffic attack  
 
 
 References:
