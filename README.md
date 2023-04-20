@@ -1,86 +1,36 @@
-# htgen
+# CPNToolsShmelevaTR
+# CPN Tools Models of Tatiana R. Shmeleva
+Descriptions are collected in "CPN Tools Tatiana R. Shmeleva Models.pdf"
 
-Generator of hypertorus Petri net models
-
-
-Description:
-------------
-
-A hypertorus is obtained from a hypercube via closing (connecting) opposite facets in each dimension. 
-A cell of hypertorus grid represents a packet switching device with ports situated on facets of the unit-sized hypercube.
- A device works in full-duplex mode using store-and-forward principle with limited capacity of buffer.
- Neighboring cells are connected via merging contact places situated on common facets. 
+Tool to run models - CPN Tools, http://cpntools.org
 
 
-Command line format:
---------------------
+List of models
+--------------
 
->htgen d k p b > ht_model.net
+Reenterable Model of Provider Backbone Bridge
+Reenterable Model of Rectangular Communication Grid with Cut-through Nodes
+Reenterable Model of Rectangular Communication Grid with  Store-and-forward Nodes
 
-
-Parameters:
------------
-
-d   the number of dimensions;
-
-k   the hypertorus size, actually k x k x k x ... x k - d times;
-
-p   the number of packets in each section of the internal buffer;
-
-b   the internal buffer available size.
-
-
-Output (file) format:
----------------------
-
-.net  “Time Petri nets textual format” according to http://www.laas.fr/tina
-
-
-Tools to display, edit, visualize, and analyze generated models:
-----------------------------------------------------------------
-
-Tina Toolbox for analysis of Petri nets and Time Petri nets http://www.laas.fr/tina
-
-Exported from Tina models are opened with other tools for Petri nets http://www.informatik.uni-hamburg.de/TGI/PetriNets/tools/quick.html
-
-
-An example:
------------
-
->htgen 3 2 2 3 > ht3d2k2p3b.net
-
-- Generate a model of a hypertorus with 3 dimensions of size 2 with 2 packets in each buffer section and 
-available size of buffer 3.
-
->nd ht3d2k2p3b.net
-
-- Load the model into graphical environment of Tina. 
-
-Menue: "Edit - draw - nearto"
-
-- Visualize the model. 
-
-Menue: "Tools - stepper simulator - Rand"
-
-- Watch the token game.
+Rectangular Grid with Cut-through Switching Nodes
+Rectangular grid under disguised traffic attack
 
 
 References:
 -----------
 
-Zaitsev D.A., Shmeleva T.R. Hypercube communication structures analysis via parametric Petri nets.
-Proceedings of 24th UK Performance Engineering Workshop (UKPEW 2008), 3-4 July 2008. 
-http://ukpew.org/2008/papers/hypercube-petri-nets
+Shmeleva T.R. Security of Grid Structures with Cut-through Switching Nodes. System Informatics, No. 10, 2017, p. 23-32.
+http://www.system-informatics.ru/en/article/135,
+https://doi.org/10.31144/si.2307-6410.2017.n10.p23-32
 
-Zaitsev D.A. Generators of Petri Net Models. Computer Communication & Collaboration, Vol. 2, Issue 2, 2014, 12-25. 
-http://www.bapress.ca/ccc/ccc2014_2/2_14011024.pdf
+Shmeleva T.R. Efficiency estimation of computing grids with various traffic types. Proceedings of the O.S. Popov ОNAT, 
+No. 2, 2017, pp. 89-95.
+https://ojs.suitt.edu.ua/index.php/sbornik_onat/article/view/1052
 
-Zaitsev D.A. Verification of Computing Grids with Special Edge Conditions by Infinite Petri Nets, 
-Automatic Control and Computer Sciences, 2013, Vol. 47, No. 7, pp. 403–412. 
-http://dx.doi.org/10.3103/S0146411613070262 
+Shmeleva T.R. Performance evaluation of communication grids with cut-through switching nodes. 
+Proceedings of the O.S. Popov ОNAT, No. 1, 2018, pp. 98-105
+https://ojs.suitt.edu.ua/index.php/sbornik_onat/article/view/1078
 
-
----------------------------
-http://member.acm.org/~daze
----------------------------
-
+Zaitsev D.A., Shmeleva T.R. Simulating Telecommunication Systems with CPN Tools: Students' book 
+// Odessa: ONAT, 2006. - 60 p. 
+http://daze.ho.ua/cpnmp2.pdf
