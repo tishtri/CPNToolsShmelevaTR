@@ -23,12 +23,12 @@ Shmeleva T.R. Security of Grid Structures with Cut-through Switching Nodes. Syst
 http://www.system-informatics.ru/en/article/135,
 https://doi.org/10.31144/si.2307-6410.2017.n10.p23-32
 
-Shmeleva T.R. Efficiency estimation of computing grids with various traffic types. Proceedings of the O.S. Popov ОNAT, 
+Shmeleva T.R. Efficiency estimation of computing grids with various traffic types. Proceedings of the A.S. Popov ОNAT, 
 No. 2, 2017, pp. 89-95.
 https://ojs.suitt.edu.ua/index.php/sbornik_onat/article/view/1052
 
 Shmeleva T.R. Performance evaluation of communication grids with cut-through switching nodes. 
-Proceedings of the O.S. Popov ОNAT, No. 1, 2018, pp. 98-105
+Proceedings of the A.S. Popov ОNAT, No. 1, 2018, pp. 98-105
 https://ojs.suitt.edu.ua/index.php/sbornik_onat/article/view/1078
 
 Zaitsev D.A., Shmeleva T.R. Simulating Telecommunication Systems with CPN Tools: Students' book 
